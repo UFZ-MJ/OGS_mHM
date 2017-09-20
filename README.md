@@ -1,8 +1,14 @@
-# OGS_mHM
+# mHM\#OGS #
 
-OGS_mHM v1.0 is a branch of the THMC simulator OpenGeoSys5 (OGS5). OGS_mHM can be dynamically coupled to the mesoscale Hydrologic Model mHM via an interface GIS2FEM.
+mHM\#OGS is a coupled hydrological model which couples the mesoscale Hydrological Model 5.7 (mHM5.7) and OpenGeoSys5 (OGS5). Tne interface GIS2FEM is used to communicate between those two codes.
 
-# About OpenGeoSys #
+# About mesoscale Hydrological Model (mHM)#
+
+You could find information about mHM in follwing links:
+- General homepage: http://www.ufz.de/index.php?en=40114
+- Wiki: https://svn.ufz.de/mhm/
+
+# About OpenGeoSys (OGS)#
 
 You could find information about OGS5 in follwing links:
 - General homepage: http://www.opengeosys.org
