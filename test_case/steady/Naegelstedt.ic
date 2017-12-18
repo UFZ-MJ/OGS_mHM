@@ -1,0 +1,12 @@
+GeoSys-IC: Initial Conditions ------------------------------------------------
+#INITIAL_CONDITION
+ $PCS_TYPE
+  GROUNDWATER_FLOW
+ $PRIMARY_VARIABLE
+  HEAD
+ $GEO_TYPE
+  DOMAIN
+ $DIS_TYPE
+ ;RESTART Naegelstedt.rfr
+CONSTANT 300
+#STOP

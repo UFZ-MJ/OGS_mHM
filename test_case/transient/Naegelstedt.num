@@ -1,0 +1,9 @@
+File: Naegelstedt.num
+NUM: Numerics ------------------------------------------------
+#NUMERICS
+$PCS_TYPE
+GROUNDWATER_FLOW
+$LINEAR_SOLVER
+; method .... error\_tolerance max\_iterations theta precond storage
+2 0 1.000000000000e-6 300 1.0 100 4
+#STOP
