@@ -8,6 +8,11 @@ You could find information about mHM in follwing links:
 - General homepage: http://www.ufz.de/index.php?en=40114
 - Wiki: https://svn.ufz.de/mhm/
 
+You could download the new version from several mirrored repositories:
+- SVN:    https://svn.ufz.de/mhm 
+- GitLab: https://git.ufz.de/mhm
+- GitHub: https://github.com/mhm-ufz
+
 ## About OpenGeoSys (OGS)
 
 You could find information about OGS5 in follwing links:
