@@ -1,0 +1,7 @@
+1. the time period is from Jan 1955 to Dec 2010.
+2. the unit is mm per month.
+3. The folder processed is the processed raster file which are readily for OGS model run. The processing procedure are:
+1) Abandon those cells which are not river from BF file (below the threshold).
+2) Multiply the processed BF file with a facor.
+3) Multiply the processed GW recharge File with another factor.
+4) Merge the above two files.

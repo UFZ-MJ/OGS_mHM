@@ -1,0 +1,22 @@
+#! /bin/bash 
+bcpp -ylcnc -i 3   rf_pcs.cpp                  CPY/rf_pcs.cpp        
+bcpp -ylcnc -i 3   equation_class.cpp          CPY/equation_class.cpp
+bcpp -ylcnc -i 3   rf_pcs.h                    CPY/rf_pcs.h          
+bcpp -ylcnc -i 3   FEMEnums.cpp                CPY/FEMEnums.cpp      
+bcpp -ylcnc -i 3   pcs_dm.h                    CPY/pcs_dm.h          
+bcpp -ylcnc -i 3   pcs_dm.cpp                  CPY/pcs_dm.cpp        
+bcpp -ylcnc -i 3   fem_ele_vec.cpp             CPY/fem_ele_vec.cpp   
+bcpp -ylcnc -i 3   tools.h                     CPY/tools.h           
+bcpp -ylcnc -i 3   fem_ele_std.cpp             CPY/fem_ele_std.cpp   
+bcpp -ylcnc -i 3   rf_st_new.cpp               CPY/rf_st_new.cpp     
+bcpp -ylcnc -i 3   problem.cpp                 CPY/problem.cpp       
+bcpp -ylcnc -i 3   equation_class.h            CPY/equation_class.h  
+bcpp -ylcnc -i 3   rf_pcs1.cpp                 CPY/rf_pcs1.cpp       
+bcpp -ylcnc -i 3   rf_num_new.cpp              CPY/rf_num_new.cpp    
+bcpp -ylcnc -i 3   rf_num_new.h                CPY/rf_num_new.h      
+bcpp -ylcnc -i 3   matrix_class.cpp            CPY/matrix_class.cpp  
+bcpp -ylcnc -i 3   matrix_class.h              CPY/matrix_class.h    
+bcpp -ylcnc -i 3   fem_ele_vec.h               CPY/fem_ele_vec.h     
+bcpp -ylcnc -i 3   FEMEnums.h                  CPY/FEMEnums.h        
+bcpp -ylcnc -i 3   fem_ele_std.h               CPY/fem_ele_std.h     
+bcpp -ylcnc -i 3   fem_ele.h                   CPY/fem_ele.h         

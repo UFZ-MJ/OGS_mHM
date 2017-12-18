@@ -1,0 +1,7 @@
+ADD_DEFINITIONS(-DNEW_EQS)
+set (LIS ON)
+
+
+add_definitions(
+	-DIPMGEMPLUGIN
+)

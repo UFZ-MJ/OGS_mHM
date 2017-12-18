@@ -1,0 +1,673 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="CPP_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/Base/BuildInfo.h.in" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Base/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Base/Configure.h.in" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Base/DateTools.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Base/DateTools.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Base/FileFinder.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Base/FileTools.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Base/FileTools.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Base/MemWatch.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Base/MemWatch.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Base/StringTools.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Base/StringTools.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Base/binarySearch.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Base/binarySearch.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Base/break.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Base/break.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Base/display.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Base/display.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Base/makros.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Base/makros.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Base/memory.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Base/memory.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Base/printList.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Base/quicksort.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Base/swap.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Base/timer.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Base/timer.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Base/uniqueListInsert.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Base/wait.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FEM/BoundaryCondition.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FEM/BoundaryCondition.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FEM/CAP_IO.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FEM/CAP_IO.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FEM/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FEM/Constrained.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FEM/DUMUX.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FEM/DUMUX.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FEM/DistributionInfo.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FEM/DistributionInfo.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FEM/Eclipse.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FEM/Eclipse.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FEM/FEMCondition.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FEM/FEMCondition.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FEM/FEMEnums.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FEM/FEMEnums.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FEM/GeoInfo.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FEM/GeoInfo.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FEM/InitialCondition.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FEM/InitialCondition.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FEM/LinearFunctionData.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FEM/LinearFunctionData.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FEM/Output.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FEM/Output.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FEM/ProcessInfo.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FEM/ProcessInfo.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FEM/SourceTerm.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FEM/SourceTerm.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FEM/SparseMatrixDOK.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FEM/SparseMatrixDOK.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FEM/StepperBulischStoer.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FEM/Stiff_Bulirsch-Stoer.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FEM/Stiff_Bulirsch-Stoer.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FEM/conversion_rate.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FEM/conversion_rate.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FEM/eos.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FEM/eos.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FEM/fem_ele.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FEM/fem_ele.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FEM/fem_ele_std.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FEM/fem_ele_std.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FEM/fem_ele_std1.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FEM/fem_ele_std_tes.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FEM/fem_ele_std_tneq.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FEM/fem_ele_vec.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FEM/fem_ele_vec.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FEM/femlib.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FEM/femlib.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FEM/files0.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FEM/files0.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FEM/mathlib.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FEM/mathlib.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FEM/matrix_class.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FEM/matrix_class.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FEM/matrix_routines.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FEM/matrix_routines.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FEM/par_ddc.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FEM/par_ddc.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FEM/pcs_dm.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FEM/pcs_dm.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FEM/physical_constants.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FEM/problem.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FEM/problem.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FEM/prototyp.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FEM/rf_bc_new.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FEM/rf_bc_new.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FEM/rf_fct.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FEM/rf_fct.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FEM/rf_fluid_momentum.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FEM/rf_fluid_momentum.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FEM/rf_ic_new.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FEM/rf_ic_new.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FEM/rf_kinreact.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FEM/rf_kinreact.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FEM/rf_mfp_new.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FEM/rf_mfp_new.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FEM/rf_mmp_new.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FEM/rf_mmp_new.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FEM/rf_msp_new.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FEM/rf_msp_new.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FEM/rf_node.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FEM/rf_node.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FEM/rf_num_new.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FEM/rf_num_new.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FEM/rf_out_new.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FEM/rf_out_new.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FEM/rf_pcs.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FEM/rf_pcs.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FEM/rf_random_walk.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FEM/rf_random_walk.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FEM/rf_react.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FEM/rf_react.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FEM/rf_react_cap.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FEM/rf_react_cap.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FEM/rf_react_int.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FEM/rf_react_int.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FEM/rf_st_new.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FEM/rf_st_new.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FEM/rf_tim_new.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FEM/rf_tim_new.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FEM/rfmat_cp.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FEM/rfmat_cp.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FEM/solver.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FEM/solver.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FEM/tools.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FEM/tools.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FEM/vtk.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FEM/vtk.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FileIO/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FileIO/FEMIO/BoundaryConditionIO.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FileIO/FEMIO/BoundaryConditionIO.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FileIO/FEMIO/GeoIO.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FileIO/FEMIO/GeoIO.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FileIO/FEMIO/ProcessIO.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FileIO/FEMIO/ProcessIO.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FileIO/MathIO/CRSIO.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FileIO/MeshIO/LegacyVtkInterface.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FileIO/MeshIO/LegacyVtkInterface.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FileIO/MeshIO/OGSMeshIO.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FileIO/MeshIO/OGSMeshIO.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FileIO/OGSIOVer4.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FileIO/OGSIOVer4.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FileIO/StationIO.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FileIO/StationIO.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FileIO/Writer.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FileIO/Writer.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FileIO/XmlIO/RapidXMLInterface.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FileIO/XmlIO/RapidXMLInterface.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FileIO/readNonBlankLineFromInputStream.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FileIO/readNonBlankLineFromInputStream.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GCC/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GCC/Density.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GCC/Density.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GCC/DiffAL.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GCC/DiffAL.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GCC/DiffOH.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GCC/DiffOH.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GCC/Fluid.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GCC/Fluid.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GCC/HKF.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GCC/HKF.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GCC/IAPWS-IF97.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GCC/IAPWS-IF97.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GCC/IO.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GCC/IO.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GCC/NR.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GCC/NR.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GCC/PDE.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GCC/PDE.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GCC/PITZcalc.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GCC/PITZcalc.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GCC/PITZdata.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GCC/PITZdata.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GCC/VLE.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GCC/VLE.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GCC/WATEQdata.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GCC/dllheader.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GCC/eqbrm.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GCC/eqbrm.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GCC/export.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GCC/export.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GCC/logk.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GCC/logk.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GCC/slop98.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GCC/species.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GEO/AxisAlignedBoundingBox.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GEO/AxisAlignedBoundingBox.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GEO/BruteForceClosestPair.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GEO/BruteForceClosestPair.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GEO/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GEO/Color.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GEO/Color.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GEO/GEOObjects.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GEO/GEOObjects.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GEO/GeoType.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GEO/GeoType.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GEO/Point.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GEO/Point.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GEO/PointVec.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GEO/PointVec.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GEO/Polygon.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GEO/Polygon.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GEO/Polyline.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GEO/Polyline.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GEO/PolylineWithSegmentMarker.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GEO/PolylineWithSegmentMarker.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GEO/ProjectData.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GEO/ProjectData.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GEO/Raster.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GEO/Raster.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GEO/SensorData.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GEO/SensorData.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GEO/SimplePolygonTree.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GEO/SimplePolygonTree.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GEO/Station.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GEO/Station.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GEO/Surface.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GEO/Surface.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GEO/SurfaceGrid.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GEO/SurfaceGrid.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GEO/Triangle.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GEO/Triangle.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GEO/geo_dom.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GEO/geo_dom.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GEO/geo_lib.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GEO/geo_lib.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GEO/geo_lin.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GEO/geo_lin.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GEO/geo_mathlib.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GEO/geo_mathlib.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GEO/geo_ply.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GEO/geo_ply.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GEO/geo_pnt.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GEO/geo_pnt.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GEO/geo_sfc.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GEO/geo_sfc.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GEO/geo_vol.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GEO/geo_vol.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MSH/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MSH/GridAdapter.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MSH/GridAdapter.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MSH/MSHEnums.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MSH/MSHEnums.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MSH/MeshNodesAlongPolyline.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MSH/MeshNodesAlongPolyline.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MSH/MshEditor.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MSH/MshEditor.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MSH/msh_core.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MSH/msh_core.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MSH/msh_edge.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MSH/msh_edge.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MSH/msh_elem.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MSH/msh_elem.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MSH/msh_faces.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MSH/msh_faces.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MSH/msh_lib.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MSH/msh_lib.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MSH/msh_mesh.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MSH/msh_mesh.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MSH/msh_node.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MSH/msh_node.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MSHGEOTOOLS/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MSHGEOTOOLS/ExtractMeshNodes.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MSHGEOTOOLS/ExtractMeshNodes.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MathLib/AnalyticalGeometry.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MathLib/AnalyticalGeometry.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MathLib/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MathLib/EarClippingTriangulation.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MathLib/EarClippingTriangulation.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MathLib/InterpolationAlgorithms/CubicSpline.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MathLib/InterpolationAlgorithms/CubicSpline.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MathLib/InterpolationAlgorithms/InverseDistanceInterpolation.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MathLib/InterpolationAlgorithms/LinearIntervalInterpolation.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MathLib/InterpolationAlgorithms/PiecewiseLinearInterpolation.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MathLib/InterpolationAlgorithms/PiecewiseLinearInterpolation.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MathLib/LinAlg/DenseDirectLinearSolver.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MathLib/LinAlg/DirectLinearSolver.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MathLib/LinAlg/GaussAlgorithm.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MathLib/LinAlg/IterativeLinearSolver.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MathLib/LinAlg/LinearSolver.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MathLib/LinAlg/TriangularSolve.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MathLib/LinAlg/TriangularSolve.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MathLib/LinAlg/VectorNorms.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MathLib/LinkedTriangle.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MathLib/LinkedTriangle.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MathLib/MathTools.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MathLib/MathTools.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MathLib/Matrix.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MathLib/Vector3.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MathLib/max.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/OGS/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/OGS/ogs_display.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/OGS/ogs_display.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/OGS/rf.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ThirdParty/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/scripts/cmake/CMakeSetup.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/scripts/cmake/CompilerSetup.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/scripts/cmake/Find.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/scripts/cmake/GeneralProjectSetup.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/scripts/cmake/Macros.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/scripts/cmake/cmake/CleanDirectoryList.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/scripts/cmake/cmake/CppcheckTargets.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/scripts/cmake/cmake/DisableCompilerFlag.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/scripts/cmake/cmake/Findcppcheck.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/scripts/cmake/cmake/MSVCMultipleProcessCompile.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/scripts/cmake/cmake/OptionRequires.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/scripts/cmake/cmake/ProcessorCount.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/scripts/cmake/cmake/ResetConfigurations.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/scripts/cmake/cmake/SetDefaultBuildType.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/scripts/cmake/cmake/UseBackportedModules.cmake" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="Header Search Paths">
+        <CLASSES>
+          <root url="file://$USER_HOME$/.clion11/system/cmake/generated/9145486b/9145486b/Debug/Base" />
+          <root url="file://$USER_HOME$/.clion11/system/cmake/generated/9145486b/9145486b/MinSizeRel/Base" />
+          <root url="file://$USER_HOME$/.clion11/system/cmake/generated/9145486b/9145486b/RelWithDebInfo/Base" />
+          <root url="file://$USER_HOME$/.clion11/system/cmake/generated/9145486b/9145486b/Release/Base" />
+          <root url="file://$MODULE_DIR$/Base" />
+          <root url="file://$MODULE_DIR$/FEM" />
+          <root url="file://$MODULE_DIR$/FileIO" />
+          <root url="file://$MODULE_DIR$/GCC" />
+          <root url="file://$MODULE_DIR$/GEO" />
+          <root url="file://$MODULE_DIR$/MSH" />
+          <root url="file://$MODULE_DIR$/MSHGEOTOOLS" />
+          <root url="file://$MODULE_DIR$/MathLib" />
+          <root url="file://$MODULE_DIR$/ThirdParty" />
+          <root url="file:///usr/include" />
+          <root url="file:///usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+          <root url="file:///usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+          <root url="file:///usr/local/include" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$USER_HOME$/.clion11/system/cmake/generated/9145486b/9145486b/Debug/Base" />
+          <root url="file://$USER_HOME$/.clion11/system/cmake/generated/9145486b/9145486b/MinSizeRel/Base" />
+          <root url="file://$USER_HOME$/.clion11/system/cmake/generated/9145486b/9145486b/RelWithDebInfo/Base" />
+          <root url="file://$USER_HOME$/.clion11/system/cmake/generated/9145486b/9145486b/Release/Base" />
+          <root url="file://$MODULE_DIR$/Base" />
+          <root url="file://$MODULE_DIR$/FEM" />
+          <root url="file://$MODULE_DIR$/FileIO" />
+          <root url="file://$MODULE_DIR$/GCC" />
+          <root url="file://$MODULE_DIR$/GEO" />
+          <root url="file://$MODULE_DIR$/MSH" />
+          <root url="file://$MODULE_DIR$/MSHGEOTOOLS" />
+          <root url="file://$MODULE_DIR$/MathLib" />
+          <root url="file://$MODULE_DIR$/ThirdParty" />
+          <root url="file:///usr/include" />
+          <root url="file:///usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+          <root url="file:///usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+          <root url="file:///usr/local/include" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$MODULE_DIR$/Base/binarySearch.h" />
+          <root url="file://$MODULE_DIR$/Base/BuildInfo.h.in" />
+          <root url="file://$MODULE_DIR$/Base/CMakeLists.txt" />
+          <root url="file://$MODULE_DIR$/Base/timer.h" />
+          <root url="file://$MODULE_DIR$/Base/break.h" />
+          <root url="file://$MODULE_DIR$/Base/FileTools.cpp" />
+          <root url="file://$MODULE_DIR$/Base/StringTools.h" />
+          <root url="file://$MODULE_DIR$/Base/StringTools.cpp" />
+          <root url="file://$MODULE_DIR$/Base/DateTools.h" />
+          <root url="file://$MODULE_DIR$/Base/MemWatch.h" />
+          <root url="file://$MODULE_DIR$/Base/MemWatch.cpp" />
+          <root url="file://$MODULE_DIR$/Base/binarySearch.cpp" />
+          <root url="file://$MODULE_DIR$/Base/FileFinder.h" />
+          <root url="file://$MODULE_DIR$/Base/timer.cpp" />
+          <root url="file://$MODULE_DIR$/Base/Configure.h.in" />
+          <root url="file://$MODULE_DIR$/Base/display.cpp" />
+          <root url="file://$MODULE_DIR$/Base/printList.h" />
+          <root url="file://$MODULE_DIR$/Base/makros.h" />
+          <root url="file://$MODULE_DIR$/Base/uniqueListInsert.h" />
+          <root url="file://$MODULE_DIR$/Base/memory.cpp" />
+          <root url="file://$MODULE_DIR$/Base/quicksort.h" />
+          <root url="file://$MODULE_DIR$/Base/wait.h" />
+          <root url="file://$MODULE_DIR$/Base/makros.cpp" />
+          <root url="file://$MODULE_DIR$/Base/break.cpp" />
+          <root url="file://$MODULE_DIR$/Base/DateTools.cpp" />
+          <root url="file://$MODULE_DIR$/Base/swap.h" />
+          <root url="file://$MODULE_DIR$/Base/FileTools.h" />
+          <root url="file://$MODULE_DIR$/Base/memory.h" />
+          <root url="file://$MODULE_DIR$/Base/display.h" />
+          <root url="file://$MODULE_DIR$/FEM/conversion_rate.cpp" />
+          <root url="file://$MODULE_DIR$/FEM/tools.cpp" />
+          <root url="file://$MODULE_DIR$/FEM/rf_react.h" />
+          <root url="file://$MODULE_DIR$/FEM/InitialCondition.h" />
+          <root url="file://$MODULE_DIR$/FEM/rf_node.h" />
+          <root url="file://$MODULE_DIR$/FEM/rf_num_new.cpp" />
+          <root url="file://$MODULE_DIR$/FEM/prototyp.h" />
+          <root url="file://$MODULE_DIR$/FEM/CAP_IO.h" />
+          <root url="file://$MODULE_DIR$/FEM/rf_kinreact.cpp" />
+          <root url="file://$MODULE_DIR$/FEM/rf_bc_new.cpp" />
+          <root url="file://$MODULE_DIR$/FEM/SourceTerm.h" />
+          <root url="file://$MODULE_DIR$/FEM/BoundaryCondition.h" />
+          <root url="file://$MODULE_DIR$/FEM/StepperBulischStoer.h" />
+          <root url="file://$MODULE_DIR$/FEM/mathlib.h" />
+          <root url="file://$MODULE_DIR$/FEM/Eclipse.h" />
+          <root url="file://$MODULE_DIR$/FEM/ProcessInfo.h" />
+          <root url="file://$MODULE_DIR$/FEM/rf_random_walk.h" />
+          <root url="file://$MODULE_DIR$/FEM/FEMEnums.cpp" />
+          <root url="file://$MODULE_DIR$/FEM/CAP_IO.cpp" />
+          <root url="file://$MODULE_DIR$/FEM/rf_tim_new.cpp" />
+          <root url="file://$MODULE_DIR$/FEM/files0.h" />
+          <root url="file://$MODULE_DIR$/FEM/par_ddc.h" />
+          <root url="file://$MODULE_DIR$/FEM/fem_ele_std.h" />
+          <root url="file://$MODULE_DIR$/FEM/rf_mfp_new.h" />
+          <root url="file://$MODULE_DIR$/FEM/rf_mfp_new.cpp" />
+          <root url="file://$MODULE_DIR$/FEM/pcs_dm.h" />
+          <root url="file://$MODULE_DIR$/FEM/par_ddc.cpp" />
+          <root url="file://$MODULE_DIR$/FEM/rf_react_cap.cpp" />
+          <root url="file://$MODULE_DIR$/FEM/rf_num_new.h" />
+          <root url="file://$MODULE_DIR$/FEM/rf_pcs.h" />
+          <root url="file://$MODULE_DIR$/FEM/femlib.cpp" />
+          <root url="file://$MODULE_DIR$/FEM/rf_msp_new.h" />
+          <root url="file://$MODULE_DIR$/FEM/rfmat_cp.cpp" />
+          <root url="file://$MODULE_DIR$/FEM/InitialCondition.cpp" />
+          <root url="file://$MODULE_DIR$/FEM/Output.cpp" />
+          <root url="file://$MODULE_DIR$/FEM/LinearFunctionData.cpp" />
+          <root url="file://$MODULE_DIR$/FEM/BoundaryCondition.cpp" />
+          <root url="file://$MODULE_DIR$/FEM/vtk.h" />
+          <root url="file://$MODULE_DIR$/FEM/eos.cpp" />
+          <root url="file://$MODULE_DIR$/FEM/FEMCondition.cpp" />
+          <root url="file://$MODULE_DIR$/FEM/DUMUX.cpp" />
+          <root url="file://$MODULE_DIR$/FEM/rf_out_new.h" />
+          <root url="file://$MODULE_DIR$/FEM/vtk.cpp" />
+          <root url="file://$MODULE_DIR$/FEM/LinearFunctionData.h" />
+          <root url="file://$MODULE_DIR$/FEM/rfmat_cp.h" />
+          <root url="file://$MODULE_DIR$/FEM/rf_mmp_new.cpp" />
+          <root url="file://$MODULE_DIR$/FEM/fem_ele_std_tneq.cpp" />
+          <root url="file://$MODULE_DIR$/FEM/rf_st_new.h" />
+          <root url="file://$MODULE_DIR$/FEM/rf_mmp_new.h" />
+          <root url="file://$MODULE_DIR$/FEM/fem_ele_vec.h" />
+          <root url="file://$MODULE_DIR$/FEM/rf_msp_new.cpp" />
+          <root url="file://$MODULE_DIR$/FEM/solver.h" />
+          <root url="file://$MODULE_DIR$/FEM/Eclipse.cpp" />
+          <root url="file://$MODULE_DIR$/FEM/problem.h" />
+          <root url="file://$MODULE_DIR$/FEM/femlib.h" />
+          <root url="file://$MODULE_DIR$/FEM/rf_out_new.cpp" />
+          <root url="file://$MODULE_DIR$/FEM/rf_react_int.cpp" />
+          <root url="file://$MODULE_DIR$/FEM/GeoInfo.cpp" />
+          <root url="file://$MODULE_DIR$/FEM/rf_react_cap.h" />
+          <root url="file://$MODULE_DIR$/FEM/mathlib.cpp" />
+          <root url="file://$MODULE_DIR$/FEM/GeoInfo.h" />
+          <root url="file://$MODULE_DIR$/FEM/rf_bc_new.h" />
+          <root url="file://$MODULE_DIR$/FEM/Output.h" />
+          <root url="file://$MODULE_DIR$/FEM/rf_tim_new.h" />
+          <root url="file://$MODULE_DIR$/FEM/FEMCondition.h" />
+          <root url="file://$MODULE_DIR$/FEM/rf_random_walk.cpp" />
+          <root url="file://$MODULE_DIR$/FEM/rf_fluid_momentum.h" />
+          <root url="file://$MODULE_DIR$/FEM/SparseMatrixDOK.cpp" />
+          <root url="file://$MODULE_DIR$/FEM/rf_ic_new.h" />
+          <root url="file://$MODULE_DIR$/FEM/ProcessInfo.cpp" />
+          <root url="file://$MODULE_DIR$/FEM/fem_ele_std_tes.cpp" />
+          <root url="file://$MODULE_DIR$/FEM/problem.cpp" />
+          <root url="file://$MODULE_DIR$/FEM/rf_fluid_momentum.cpp" />
+          <root url="file://$MODULE_DIR$/FEM/matrix_class.cpp" />
+          <root url="file://$MODULE_DIR$/FEM/files0.cpp" />
+          <root url="file://$MODULE_DIR$/FEM/DistributionInfo.h" />
+          <root url="file://$MODULE_DIR$/FEM/Stiff_Bulirsch-Stoer.cpp" />
+          <root url="file://$MODULE_DIR$/FEM/matrix_class.h" />
+          <root url="file://$MODULE_DIR$/FEM/rf_react_int.h" />
+          <root url="file://$MODULE_DIR$/FEM/fem_ele_std.cpp" />
+          <root url="file://$MODULE_DIR$/FEM/eos.h" />
+          <root url="file://$MODULE_DIR$/FEM/SourceTerm.cpp" />
+          <root url="file://$MODULE_DIR$/FEM/physical_constants.h" />
+          <root url="file://$MODULE_DIR$/FEM/CMakeLists.txt" />
+          <root url="file://$MODULE_DIR$/FEM/rf_ic_new.cpp" />
+          <root url="file://$MODULE_DIR$/FEM/FEMEnums.h" />
+          <root url="file://$MODULE_DIR$/FEM/rf_pcs.cpp" />
+          <root url="file://$MODULE_DIR$/FEM/matrix_routines.h" />
+          <root url="file://$MODULE_DIR$/FEM/pcs_dm.cpp" />
+          <root url="file://$MODULE_DIR$/FEM/rf_react.cpp" />
+          <root url="file://$MODULE_DIR$/FEM/Stiff_Bulirsch-Stoer.h" />
+          <root url="file://$MODULE_DIR$/FEM/rf_st_new.cpp" />
+          <root url="file://$MODULE_DIR$/FEM/matrix_routines.cpp" />
+          <root url="file://$MODULE_DIR$/FEM/fem_ele_vec.cpp" />
+          <root url="file://$MODULE_DIR$/FEM/tools.h" />
+          <root url="file://$MODULE_DIR$/FEM/fem_ele_std1.cpp" />
+          <root url="file://$MODULE_DIR$/FEM/DUMUX.h" />
+          <root url="file://$MODULE_DIR$/FEM/SparseMatrixDOK.h" />
+          <root url="file://$MODULE_DIR$/FEM/fem_ele.h" />
+          <root url="file://$MODULE_DIR$/FEM/DistributionInfo.cpp" />
+          <root url="file://$MODULE_DIR$/FEM/rf_fct.h" />
+          <root url="file://$MODULE_DIR$/FEM/rf_fct.cpp" />
+          <root url="file://$MODULE_DIR$/FEM/conversion_rate.h" />
+          <root url="file://$MODULE_DIR$/FEM/fem_ele.cpp" />
+          <root url="file://$MODULE_DIR$/FEM/Constrained.h" />
+          <root url="file://$MODULE_DIR$/FEM/solver.cpp" />
+          <root url="file://$MODULE_DIR$/FEM/rf_kinreact.h" />
+          <root url="file://$MODULE_DIR$/FEM/rf_node.cpp" />
+          <root url="file://$MODULE_DIR$/FileIO/OGSIOVer4.h" />
+          <root url="file://$MODULE_DIR$/FileIO/StationIO.cpp" />
+          <root url="file://$MODULE_DIR$/FileIO/Writer.h" />
+          <root url="file://$MODULE_DIR$/FileIO/CMakeLists.txt" />
+          <root url="file://$MODULE_DIR$/FileIO/readNonBlankLineFromInputStream.h" />
+          <root url="file://$MODULE_DIR$/FileIO/OGSIOVer4.cpp" />
+          <root url="file://$MODULE_DIR$/FileIO/StationIO.h" />
+          <root url="file://$MODULE_DIR$/FileIO/readNonBlankLineFromInputStream.cpp" />
+          <root url="file://$MODULE_DIR$/FileIO/Writer.cpp" />
+          <root url="file://$MODULE_DIR$/FileIO/FEMIO/GeoIO.h" />
+          <root url="file://$MODULE_DIR$/FileIO/FEMIO/ProcessIO.cpp" />
+          <root url="file://$MODULE_DIR$/FileIO/FEMIO/ProcessIO.h" />
+          <root url="file://$MODULE_DIR$/FileIO/FEMIO/BoundaryConditionIO.h" />
+          <root url="file://$MODULE_DIR$/FileIO/FEMIO/GeoIO.cpp" />
+          <root url="file://$MODULE_DIR$/FileIO/FEMIO/BoundaryConditionIO.cpp" />
+          <root url="file://$MODULE_DIR$/FileIO/XmlIO/RapidXMLInterface.cpp" />
+          <root url="file://$MODULE_DIR$/FileIO/XmlIO/RapidXMLInterface.h" />
+          <root url="file://$MODULE_DIR$/FileIO/MathIO/CRSIO.h" />
+          <root url="file://$MODULE_DIR$/FileIO/MeshIO/OGSMeshIO.cpp" />
+          <root url="file://$MODULE_DIR$/FileIO/MeshIO/OGSMeshIO.h" />
+          <root url="file://$MODULE_DIR$/FileIO/MeshIO/LegacyVtkInterface.h" />
+          <root url="file://$MODULE_DIR$/FileIO/MeshIO/LegacyVtkInterface.cpp" />
+          <root url="file://$MODULE_DIR$/GCC/eqbrm.cpp" />
+          <root url="file://$MODULE_DIR$/GCC/PITZcalc.cpp" />
+          <root url="file://$MODULE_DIR$/GCC/IO.h" />
+          <root url="file://$MODULE_DIR$/GCC/DiffAL.h" />
+          <root url="file://$MODULE_DIR$/GCC/HKF.h" />
+          <root url="file://$MODULE_DIR$/GCC/Fluid.h" />
+          <root url="file://$MODULE_DIR$/GCC/NR.cpp" />
+          <root url="file://$MODULE_DIR$/GCC/species.h" />
+          <root url="file://$MODULE_DIR$/GCC/logk.cpp" />
+          <root url="file://$MODULE_DIR$/GCC/PDE.h" />
+          <root url="file://$MODULE_DIR$/GCC/CMakeLists.txt" />
+          <root url="file://$MODULE_DIR$/GCC/PITZcalc.h" />
+          <root url="file://$MODULE_DIR$/GCC/export.cpp" />
+          <root url="file://$MODULE_DIR$/GCC/DiffOH.cpp" />
+          <root url="file://$MODULE_DIR$/GCC/WATEQdata.h" />
+          <root url="file://$MODULE_DIR$/GCC/VLE.h" />
+          <root url="file://$MODULE_DIR$/GCC/PDE.cpp" />
+          <root url="file://$MODULE_DIR$/GCC/Density.cpp" />
+          <root url="file://$MODULE_DIR$/GCC/IO.cpp" />
+          <root url="file://$MODULE_DIR$/GCC/NR.h" />
+          <root url="file://$MODULE_DIR$/GCC/export.h" />
+          <root url="file://$MODULE_DIR$/GCC/dllheader.h" />
+          <root url="file://$MODULE_DIR$/GCC/PITZdata.h" />
+          <root url="file://$MODULE_DIR$/GCC/IAPWS-IF97.h" />
+          <root url="file://$MODULE_DIR$/GCC/slop98.h" />
+          <root url="file://$MODULE_DIR$/GCC/eqbrm.h" />
+          <root url="file://$MODULE_DIR$/GCC/PITZdata.cpp" />
+          <root url="file://$MODULE_DIR$/GCC/IAPWS-IF97.cpp" />
+          <root url="file://$MODULE_DIR$/GCC/Fluid.cpp" />
+          <root url="file://$MODULE_DIR$/GCC/VLE.cpp" />
+          <root url="file://$MODULE_DIR$/GCC/Density.h" />
+          <root url="file://$MODULE_DIR$/GCC/DiffAL.cpp" />
+          <root url="file://$MODULE_DIR$/GCC/HKF.cpp" />
+          <root url="file://$MODULE_DIR$/GCC/DiffOH.h" />
+          <root url="file://$MODULE_DIR$/GCC/logk.h" />
+          <root url="file://$MODULE_DIR$/GEO/Polygon.cpp" />
+          <root url="file://$MODULE_DIR$/GEO/Point.cpp" />
+          <root url="file://$MODULE_DIR$/GEO/geo_sfc.cpp" />
+          <root url="file://$MODULE_DIR$/GEO/Color.cpp" />
+          <root url="file://$MODULE_DIR$/GEO/CMakeLists.txt" />
+          <root url="file://$MODULE_DIR$/GEO/SurfaceGrid.h" />
+          <root url="file://$MODULE_DIR$/GEO/Polygon.h" />
+          <root url="file://$MODULE_DIR$/GEO/SimplePolygonTree.h" />
+          <root url="file://$MODULE_DIR$/GEO/GeoType.h" />
+          <root url="file://$MODULE_DIR$/GEO/geo_vol.h" />
+          <root url="file://$MODULE_DIR$/GEO/Triangle.h" />
+          <root url="file://$MODULE_DIR$/GEO/geo_dom.cpp" />
+          <root url="file://$MODULE_DIR$/GEO/AxisAlignedBoundingBox.h" />
+          <root url="file://$MODULE_DIR$/GEO/geo_lib.h" />
+          <root url="file://$MODULE_DIR$/GEO/BruteForceClosestPair.h" />
+          <root url="file://$MODULE_DIR$/GEO/Station.cpp" />
+          <root url="file://$MODULE_DIR$/GEO/Color.h" />
+          <root url="file://$MODULE_DIR$/GEO/geo_lin.h" />
+          <root url="file://$MODULE_DIR$/GEO/geo_sfc.h" />
+          <root url="file://$MODULE_DIR$/GEO/GEOObjects.cpp" />
+          <root url="file://$MODULE_DIR$/GEO/SensorData.cpp" />
+          <root url="file://$MODULE_DIR$/GEO/PolylineWithSegmentMarker.h" />
+          <root url="file://$MODULE_DIR$/GEO/ProjectData.cpp" />
+          <root url="file://$MODULE_DIR$/GEO/geo_mathlib.cpp" />
+          <root url="file://$MODULE_DIR$/GEO/geo_ply.cpp" />
+          <root url="file://$MODULE_DIR$/GEO/PointVec.h" />
+          <root url="file://$MODULE_DIR$/GEO/Point.h" />
+          <root url="file://$MODULE_DIR$/GEO/SensorData.h" />
+          <root url="file://$MODULE_DIR$/GEO/SurfaceGrid.cpp" />
+          <root url="file://$MODULE_DIR$/GEO/SimplePolygonTree.cpp" />
+          <root url="file://$MODULE_DIR$/GEO/geo_dom.h" />
+          <root url="file://$MODULE_DIR$/GEO/GeoType.cpp" />
+          <root url="file://$MODULE_DIR$/GEO/PointVec.cpp" />
+          <root url="file://$MODULE_DIR$/GEO/geo_lib.cpp" />
+          <root url="file://$MODULE_DIR$/GEO/geo_vol.cpp" />
+          <root url="file://$MODULE_DIR$/GEO/geo_mathlib.h" />
+          <root url="file://$MODULE_DIR$/GEO/Polyline.cpp" />
+          <root url="file://$MODULE_DIR$/GEO/geo_pnt.cpp" />
+          <root url="file://$MODULE_DIR$/GEO/Triangle.cpp" />
+          <root url="file://$MODULE_DIR$/GEO/ProjectData.h" />
+          <root url="file://$MODULE_DIR$/GEO/BruteForceClosestPair.cpp" />
+          <root url="file://$MODULE_DIR$/GEO/geo_ply.h" />
+          <root url="file://$MODULE_DIR$/GEO/GEOObjects.h" />
+          <root url="file://$MODULE_DIR$/GEO/Polyline.h" />
+          <root url="file://$MODULE_DIR$/GEO/AxisAlignedBoundingBox.cpp" />
+          <root url="file://$MODULE_DIR$/GEO/Station.h" />
+          <root url="file://$MODULE_DIR$/GEO/geo_pnt.h" />
+          <root url="file://$MODULE_DIR$/GEO/geo_lin.cpp" />
+          <root url="file://$MODULE_DIR$/GEO/Surface.h" />
+          <root url="file://$MODULE_DIR$/GEO/PolylineWithSegmentMarker.cpp" />
+          <root url="file://$MODULE_DIR$/GEO/Raster.cpp" />
+          <root url="file://$MODULE_DIR$/GEO/Raster.h" />
+          <root url="file://$MODULE_DIR$/GEO/Surface.cpp" />
+          <root url="file://$MODULE_DIR$/MSH/msh_core.cpp" />
+          <root url="file://$MODULE_DIR$/MSH/GridAdapter.cpp" />
+          <root url="file://$MODULE_DIR$/MSH/MeshNodesAlongPolyline.cpp" />
+          <root url="file://$MODULE_DIR$/MSH/msh_edge.cpp" />
+          <root url="file://$MODULE_DIR$/MSH/MSHEnums.h" />
+          <root url="file://$MODULE_DIR$/MSH/msh_faces.cpp" />
+          <root url="file://$MODULE_DIR$/MSH/CMakeLists.txt" />
+          <root url="file://$MODULE_DIR$/MSH/msh_elem.h" />
+          <root url="file://$MODULE_DIR$/MSH/MshEditor.h" />
+          <root url="file://$MODULE_DIR$/MSH/MSHEnums.cpp" />
+          <root url="file://$MODULE_DIR$/MSH/msh_lib.h" />
+          <root url="file://$MODULE_DIR$/MSH/msh_core.h" />
+          <root url="file://$MODULE_DIR$/MSH/msh_mesh.cpp" />
+          <root url="file://$MODULE_DIR$/MSH/msh_elem.cpp" />
+          <root url="file://$MODULE_DIR$/MSH/msh_edge.h" />
+          <root url="file://$MODULE_DIR$/MSH/msh_faces.h" />
+          <root url="file://$MODULE_DIR$/MSH/MeshNodesAlongPolyline.h" />
+          <root url="file://$MODULE_DIR$/MSH/msh_node.cpp" />
+          <root url="file://$MODULE_DIR$/MSH/GridAdapter.h" />
+          <root url="file://$MODULE_DIR$/MSH/msh_node.h" />
+          <root url="file://$MODULE_DIR$/MSH/msh_mesh.h" />
+          <root url="file://$MODULE_DIR$/MSH/msh_lib.cpp" />
+          <root url="file://$MODULE_DIR$/MSH/MshEditor.cpp" />
+          <root url="file://$MODULE_DIR$/MSHGEOTOOLS/CMakeLists.txt" />
+          <root url="file://$MODULE_DIR$/MSHGEOTOOLS/ExtractMeshNodes.cpp" />
+          <root url="file://$MODULE_DIR$/MSHGEOTOOLS/ExtractMeshNodes.h" />
+          <root url="file://$MODULE_DIR$/MathLib/LinkedTriangle.cpp" />
+          <root url="file://$MODULE_DIR$/MathLib/AnalyticalGeometry.cpp" />
+          <root url="file://$MODULE_DIR$/MathLib/AnalyticalGeometry.h" />
+          <root url="file://$MODULE_DIR$/MathLib/EarClippingTriangulation.cpp" />
+          <root url="file://$MODULE_DIR$/MathLib/CMakeLists.txt" />
+          <root url="file://$MODULE_DIR$/MathLib/EarClippingTriangulation.h" />
+          <root url="file://$MODULE_DIR$/MathLib/MathTools.h" />
+          <root url="file://$MODULE_DIR$/MathLib/max.h" />
+          <root url="file://$MODULE_DIR$/MathLib/Vector3.h" />
+          <root url="file://$MODULE_DIR$/MathLib/MathTools.cpp" />
+          <root url="file://$MODULE_DIR$/MathLib/Matrix.h" />
+          <root url="file://$MODULE_DIR$/MathLib/LinkedTriangle.h" />
+          <root url="file://$MODULE_DIR$/MathLib/LinAlg/VectorNorms.h" />
+          <root url="file://$MODULE_DIR$/MathLib/LinAlg/GaussAlgorithm.h" />
+          <root url="file://$MODULE_DIR$/MathLib/LinAlg/LinearSolver.h" />
+          <root url="file://$MODULE_DIR$/MathLib/LinAlg/DenseDirectLinearSolver.h" />
+          <root url="file://$MODULE_DIR$/MathLib/LinAlg/IterativeLinearSolver.h" />
+          <root url="file://$MODULE_DIR$/MathLib/LinAlg/TriangularSolve.cpp" />
+          <root url="file://$MODULE_DIR$/MathLib/LinAlg/DirectLinearSolver.h" />
+          <root url="file://$MODULE_DIR$/MathLib/LinAlg/TriangularSolve.h" />
+          <root url="file://$MODULE_DIR$/MathLib/InterpolationAlgorithms/InverseDistanceInterpolation.h" />
+          <root url="file://$MODULE_DIR$/MathLib/InterpolationAlgorithms/CubicSpline.h" />
+          <root url="file://$MODULE_DIR$/MathLib/InterpolationAlgorithms/CubicSpline.cpp" />
+          <root url="file://$MODULE_DIR$/MathLib/InterpolationAlgorithms/LinearIntervalInterpolation.h" />
+          <root url="file://$MODULE_DIR$/MathLib/InterpolationAlgorithms/PiecewiseLinearInterpolation.h" />
+          <root url="file://$MODULE_DIR$/MathLib/InterpolationAlgorithms/PiecewiseLinearInterpolation.cpp" />
+          <root url="file://$MODULE_DIR$/ThirdParty/CMakeLists.txt" />
+        </excluded>
+      </library>
+    </orderEntry>
+  </component>
+</module>

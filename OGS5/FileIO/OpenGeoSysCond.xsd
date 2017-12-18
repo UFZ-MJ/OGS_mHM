@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<!-- OpenGeoSysCond schema; initial implementation: Karsten Rink -->
+
+  <!-- definition of "CondType" -->
+  <xs:complexType name="CondType">
+    <xs:sequence>
+      <xs:element name="ProcessType" type="xs:string" maxOccurs="1" />
+      <xs:element name="PrimaryVariable" type="xs:string" maxOccurs="1" />
+      <xs:element name="GeoType" maxOccurs="1">
+        <xs:complexType>
+          <xs:all>
+            <xs:element name="geoObject">
+              <xs:simpleType>
+	        <xs:restriction base="xs:string">
+	          <xs:enumeration value="POINT"/>
+	          <xs:enumeration value="POLYLINE"/>
+	          <xs:enumeration value="SURFACE"/>
+	          <xs:enumeration value="VOLUME"/>
+	          <xs:enumeration value="DOMAIN"/>
+	        </xs:restriction>
+              </xs:simpleType>
+            </xs:element>
+            <xs:element name="geoName" type="xs:string" />
+          </xs:all>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="DisType" maxOccurs="1">
+        <xs:complexType>
+          <xs:all>
+            <xs:element name="disName" type="xs:string" />
+            <xs:element name="disValue" type="xs:decimal" />
+          </xs:all>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  
+  
+  <!-- definition of "extCondType" as an extension of "CondType" -->
+  <xs:complexType name="extCondType">
+    <xs:complexContent>
+      <xs:extension base="CondType">
+        <xs:sequence>
+          <xs:element name="FunctionType" type="xs:string"  minOccurs="0" maxOccurs="1"/>	 <!-- is optional -->
+          <xs:element name="TimeType" type="xs:nonNegativeInteger" minOccurs="0" maxOccurs="1"/> <!-- is optional -->
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  
+
+  <!-- definition of file content -->
+  <xs:element name="OpenGeoSysCond">
+    <xs:complexType>
+      <xs:sequence>
+	<xs:element name="name" type="xs:string" minOccurs="0" maxOccurs="1" />
+
+        <!-- definition of initial conditions -->
+	<xs:element name="InitialConditions" minOccurs="0" maxOccurs="1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="IC" type="CondType" maxOccurs="unbounded" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+          
+        <!-- definition of boundary conditions -->
+        <xs:element name="BoundaryConditions" minOccurs="0" maxOccurs="1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="BC" type="extCondType" maxOccurs="unbounded" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+
+        <!-- definition of source terms -->
+        <xs:element name="SourceTerms" minOccurs="0" maxOccurs="1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ST" type="extCondType" maxOccurs="unbounded" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+	
+</xs:schema>

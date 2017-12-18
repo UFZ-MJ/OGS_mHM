@@ -1,0 +1,6 @@
+FindGit.cmake
+Release/
+build*/
+benchOut.txt
+benchSummary.csv
+svnInfo.txt
